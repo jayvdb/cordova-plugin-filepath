@@ -54,10 +54,6 @@ public class FilePath extends CordovaPlugin {
         PermissionHelper.requestPermission(this, requestCode, READ);
     }
 
-    public void initialize(CordovaInterface cordova, final CordovaWebView webView) {
-        super.initialize(cordova, webView);
-    }
-
     /**
      * Executes the request and returns PluginResult.
      *
